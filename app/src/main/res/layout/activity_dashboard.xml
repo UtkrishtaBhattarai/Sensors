@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/btnsensorlist"
+        android:layout_width="258dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="108dp"
+        android:text="SensorList"
+        app:layout_constraintBottom_toTopOf="@+id/btnaccelo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <Button
+        android:id="@+id/btnaccelo"
+        android:layout_width="250dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="28dp"
+        android:text="Accelerometer"
+        app:layout_constraintBottom_toTopOf="@+id/btngyro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btngyro"
+        android:layout_width="252dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="144dp"
+        android:text="Gyroscope"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
